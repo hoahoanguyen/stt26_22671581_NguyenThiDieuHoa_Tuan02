@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+h1 {
+    text-align: center;
+    padding: 15px 0;
+    color: rgb(204, 84, 84);
+    text-shadow: 10px 7px 0px pink;
+    text-transform: uppercase;
+} 
+
+h2 {
+    color: brown;
+    background-color: beige;
+}
+ 
+.menu {
+    margin-left: 40px;
+}
+
+.menu a {
+    color: black;
+}
+
+.menu-link {
+    color: #fff;
+    font-size: 19px;
+    text-decoration: none;
+}
+ 

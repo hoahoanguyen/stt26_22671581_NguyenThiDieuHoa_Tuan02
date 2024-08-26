@@ -1,0 +1,47 @@
+.img-back {
+    height: 100%;
+    width: 150px;
+}
+
+.box-img {
+    position: relative;
+    width: 474px;
+}
+
+.box-img img {
+    height: 465px;
+}
+
+.menu {
+    width: 150px;
+}
+
+.note {
+    border-style: solid;
+    border-width: 4px;
+    border-color: #333 gray gray #333;
+    width: 200px;
+    padding: 8px;
+    position: absolute;
+    background-color: rgb(248, 239, 226);
+    color: brown;
+    font-size: 13px;
+}
+
+.note-img-1 {
+    width: 160px;
+    top: -2%;
+    right: 0%;
+}
+
+.note-img-2 {
+    width: 160px;
+    top: 42%;
+    left: -10%;
+}
+
+.note-img-3 {
+    width: 160px;
+    right: -15%;
+    bottom: 16%;
+}

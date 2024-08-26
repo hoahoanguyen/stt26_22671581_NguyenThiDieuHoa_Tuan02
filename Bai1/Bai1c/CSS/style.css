@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+#container {
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid rgb(228, 129, 129);
+}
+
+h1 {
+    text-align: center;
+    padding: 15px 0;
+    color: rgb(204, 84, 84);
+    text-shadow: 10px 7px 0px pink;
+    text-transform: uppercase;
+}
+
+.menu a {
+    text-transform: uppercase;
+    border-right: 3px solid rgb(38, 65, 184);
+    margin-left: 15px;
+}
+
+.menu input {
+    margin-right: 3px;
+    margin-left: 35px;
+}
+
+.menu {
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    display: flex;
+}
+
+.menu-link {
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px 10px;
+}
+
+
+/* ct left */
+
+.content-left a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    background: pink;
+    border-radius: 10px;
+    padding: 6px;
+    margin-top: 10px;
+}
+
+.content-left div img {
+    display: block;
+    max-width: 350px;
+    height: 180px;
+    width: 100%;
+    border-radius: 50%;
+    margin-top: 20px;
+    box-shadow: 10px 25px 20px pink;
+}
+
+
+/* content-center */
+
+.content-center {
+    padding: 5px 40px;
+    width: 100%;
+    margin-top: 5px;
+}
+
+.content-center h2 {
+    background-color: pink;
+    color: rgb(204, 84, 84);
+    letter-spacing: 1rem;
+    width: 400px;
+    font-weight: bolder;
+}
+
+.content-center .ct-center div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-center ul {
+    margin-left: 50px;
+}
+
+.content-center a {
+    color: red;
+    font-weight: bolder;
+}
+
+.content-center table {
+    width: 100%;
+}
+
+.content-center table input {
+    width: 90%;
+    padding: 10px 5px;
+    margin-bottom: 20px;
+}
+
+.content-center table .td-radio input {
+    width: 20px;
+}
+
+.content-center table .td-radio input {
+    padding: 0;
+    margin: 0;
+}
+
+.content-center button[type="button"] {
+    padding: 6px 10px;
+}
+
+
+/* content-right */
+
+.content-right {
+    background-color: black;
+    margin-top: 10px;
+    padding: 20px 0;
+}
+
+.content-right h3 {
+    font-size: 24px;
+    color: white;
+    margin: 0;
+}
+
+.content-right .right-box {
+    padding: 5px 20px;
+    width: 340px;
+}
+
+.content-right span {
+    color: white;
+    font-size: 20px;
+    margin-top: 18px;
+    display: inline-block;
+}
+
+.content-right .right-img {
+    width: 300px;
+    text-align: center;
+}
+
+.content-right div img {
+    width: 100%;
+    height: 200px;
+    display: block;
+    text-align: center;
+}
+
+.content-right p {
+    color: white;
+    margin: 0;
+}
+
+.content-right p a {
+    color: pink;
+}
+
+footer {
+    text-align: center;
+    margin-top: 10px;
+    background-color: pink;
+    padding: 5px 0px;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+}
